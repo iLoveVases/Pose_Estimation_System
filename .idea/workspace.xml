@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7594b52b-0120-4b42-898a-7ff8b61a627c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/learning_data/CSV/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_data/lying/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_data/lying_npy/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_data/sitting/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_data/sitting_npy/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_data/standing/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_data/standing_npy/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/lying/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/sitting/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/standing/test.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateDataBase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Renamer.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateDataBase/Renamer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,25 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/mrsta/Desktop/D32",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrsta/Desktop/D32&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mrsta\Desktop\D32" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mrsta\Desktop\D32\CreateDataBase" />
       <recent name="C:\Users\mrsta\Desktop\D32\" />
       <recent name="C:\Users\mrsta\Desktop\D32" />
       <recent name="C:\Users\mrsta\Desktop\D32\.ipynb_checkpoints" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Pose_Estimation_system_000">
+  <component name="RunManager" selected="Python.Renamer (1)">
     <configuration name="CSV_generate" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="D32" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,6 +165,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Renamer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="D32" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CreateDataBase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CreateDataBase/Renamer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Renamer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="D32" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,7 +198,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Renamer.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\mrsta\Desktop\D32\CreateDataBase\Renamer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,46 +270,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="XGB_Generate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="D32" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\mrsta\Desktop\D32\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\mrsta\Desktop\D32\XGB_Generate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.SVN_Generate" />
       <item itemvalue="Python.CSV_generate" />
       <item itemvalue="Python.Classifier_RNN" />
       <item itemvalue="Python.WTKRESY" />
       <item itemvalue="Python.Saving" />
+      <item itemvalue="Python.Renamer (1)" />
       <item itemvalue="Python.Model_Evaluation" />
       <item itemvalue="Python.Pose_Estimation_system_000" />
-      <item itemvalue="Python.XGB_Generate" />
       <item itemvalue="Python.Collecting_Data" />
       <item itemvalue="Python.Renamer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Renamer (1)" />
+        <item itemvalue="Python.Renamer" />
         <item itemvalue="Python.Pose_Estimation_system_000" />
         <item itemvalue="Python.Collecting_Data" />
         <item itemvalue="Python.Model_Evaluation" />
-        <item itemvalue="Python.XGB_Generate" />
-        <item itemvalue="Python.Renamer" />
       </list>
     </recent_temporary>
   </component>
@@ -306,5 +302,16 @@
       <updated>1629567041384</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
