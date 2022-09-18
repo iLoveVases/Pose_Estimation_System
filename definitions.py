@@ -1,6 +1,6 @@
 import os
 
-CLASSES = ['sitting', 'standing', 'lying']
+CLASSES = ['standing', 'sitting', 'lying']  # THE ORDER OF ENTRIES MUST BE THE SAME
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))  # Project Root
 

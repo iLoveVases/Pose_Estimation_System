@@ -38,3 +38,4 @@ def arrange():
         res = sorted(glob.glob(path + "*.jpg"))
         # for name in res:
         # print(name)
+    print("Files are renamed")

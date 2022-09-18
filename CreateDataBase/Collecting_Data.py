@@ -127,6 +127,3 @@ def gather_data():
 
         path_number += 1
         print(f"{str(sample)} samples has been collected!")
-
-
-gather_data()

@@ -1,9 +1,7 @@
 import xgboost as xgb
-import numpy as np
-import os
 import pandas as pd
 import sklearn as sk
-import CSV_generate
+from CreateDataBase import CSV_generate
 from sklearn import metrics
 from sklearn.metrics import classification_report
 from definitions import XGB_MODEL_PATH, CSV_PATH
